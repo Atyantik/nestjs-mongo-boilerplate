@@ -1,0 +1,9 @@
+authorityKeyIdentifier=keyid,issuer
+basicConstraints=CA:FALSE
+keyUsage = digitalSignature, nonRepudiation, keyEncipherment, dataEncipherment
+subjectAltName = @alt_names
+[alt_names]
+DNS.1 = local.luxeglobalawards.com
+DNS.2 = *.local.luxeglobalawards.com
+DNS.3 = *.local.luxeglobal.com
+DNS.4 = local.luxeglobal.com

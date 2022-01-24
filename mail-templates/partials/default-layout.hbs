@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+  {{> head }}
+<body>
+    <div class="email-wrap">
+        <table class="email-wrapper" width="100%" cellpadding="0" cellspacing="0">
+            <tr>
+                <td align="center" class="email-content-wrap">
+                  <table class="email-content" width="100%" cellpadding="0" cellspacing="0">
+                        <!-- Top Banner Section -->
+                        {{> default-header }}
+                        <!-- Top Heading Section -->
+                        <tr>
+                          <td>
+                            {{> @partial-block }}
+                          </td>
+                        </tr>
+                        {{> default-footer }}
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
