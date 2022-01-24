@@ -1,6 +1,7 @@
-# NestJS Barebone  
+# NestJS MongoDB Boilerplate  
 
-The starter repo for most of the enterprise projects. 
+The boilerplate repo for most of the enterprise projects.
+We are using NestJS with Keycloak, DigitalOcean & Cloudflare services to create robust enterprise applications. Thus this boilerplate serve as the basis for initializing such projects. 
 
 ## Description  
 This repository is built on top of NestJS framework TypeScript starter repository.
