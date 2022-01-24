@@ -23,7 +23,6 @@ This repository is built on top of NestJS framework TypeScript starter repositor
  2. Remove the .git folder and git init with relevant steps
  3. Set up env variables from [.example.env](.example.env)
  4. Setup SSLs, basic instruction in [ssl/README.md](ssl/README.md)
- 5. Create Setup 
 
 ## Installation
 
